@@ -1,7 +1,8 @@
 :root {
-  --light-background: #F8F8F8;
+  --light-background: rgb(248, 248, 248);
   --dark-background: #191919;
   --dark-nav: #232323;
+  --primary: #546de5;
 }
 
 html {
@@ -15,4 +16,14 @@ html {
   padding: 0;
   margin: 0;
   box-sizing: inherit;
+}
+
+/*Navigation Bar Styling*/
+.navbar {
+  position: fixed;
+  top: 0px;
+  height: 60px;
+  width: 100vw;
+  background-color: var(--light-background);
+  box-shadow: rgb(0 0 0 / 5%) 0px 5px 10px;
 }
