@@ -376,6 +376,26 @@ header.sticky {
 	opacity: 1;
 }
 
+.layer a {
+	position: absolute;
+	width: 30%;
+	color: var(--primary-color);
+	bottom: 0;
+	opacity: 0;
+	font-size: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: all .40s;
+	padding: 15px 27px;
+	background: var(--bg-color);
+	border-radius: 8px;
+}
+
+.layer:hover a {
+	bottom: 30%;
+	opacity: 1;
+}
+
 .service-content {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(400px, auto));
