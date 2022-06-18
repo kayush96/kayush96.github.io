@@ -3,7 +3,7 @@
 	--bg-color: #ffffff;
 	--text-color: #000;
 	--secondary-color: #a09dab;
-	--primary-color:  #f75023;
+	--primary-color:  #eb3b5a/*#f75023*/;
 	--big-font: 5rem;
 	--h2-font: 3rem;
 	--p-font: 1rem;
@@ -164,7 +164,7 @@ span {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	background: rgba(128, 103, 240, 1);
+	background: #0fb9b1/*rgba(128, 103, 240, 1)*/;
 	font-size: 17px;
 	color: var(--bg-color);
 	margin-right: 22px;
@@ -226,6 +226,9 @@ header.sticky {
 	margin-bottom: 20px;
 }
 
+.sub-img img {
+	width: 100%;
+}
 .sub-box h3 {
 	margin-bottom: 20px;
 	font-size: 24px;
@@ -386,13 +389,13 @@ header.sticky {
 	left: 50%;
 	transform: translateX(-50%);
 	transition: all .40s;
-	padding: 15px 27px;
+	padding: 12px 25px;
 	background: var(--bg-color);
 	border-radius: 8px;
 }
 
 .layer:hover a {
-	bottom: 30%;
+	bottom: 10%;
 	opacity: 1;
 }
 
@@ -498,7 +501,7 @@ header.sticky {
 }
 
 .contact {
-	background: #8067f0;
+	background: #0fb9b1;
 	width: 64%;
 	margin: 100px auto;
 	padding: 70px 15px;
